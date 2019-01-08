@@ -6,9 +6,14 @@ This was all run on a Paperspace P4000 machine
 
 ## Potential Avenues of Investigation:
 
+- Agressive LR for training all layers
+- Train only on cropped images
+- Try alternate resnet sizes (benchmark used resnet152
+- Use non-standard fastai image augmentations
+
 Implementation of:
 
-- Stanford Cars SOTA 93.61% (Aug-18)  https://www.researchgate.net/publication/316027349_Deep_CNNs_With_Spatially_Weighted_Pooling_for_Fine-Grained_Car_Recognition
+- Stanford Cars SOTA 93.61% (Apr-18)  https://www.researchgate.net/publication/316027349_Deep_CNNs_With_Spatially_Weighted_Pooling_for_Fine-Grained_Car_Recognition
 - @sgugger's adam experiments: https://github.com/sgugger/Adam-experiments
 
 ## Notebooks
