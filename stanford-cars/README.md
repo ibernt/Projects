@@ -15,8 +15,8 @@ Implementation of:
 
 **1. stanford_cars_benchmark.ipynb**
 
-    - Benchmark model using basic fastai image classification workflow
-    - 84.95% Accuracy
+ - Benchmark model using basic fastai image classification workflow
+ - 84.95% Accuracy
     
 ## Credits
 
