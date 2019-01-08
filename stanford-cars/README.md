@@ -11,7 +11,7 @@ Implementation of:
 - Stanford Cars SOTA 93.61% (Aug-18)  https://www.researchgate.net/publication/316027349_Deep_CNNs_With_Spatially_Weighted_Pooling_for_Fine-Grained_Car_Recognition
 - @sgugger's adam experiments: https://github.com/sgugger/Adam-experiments
 
-## NOTEBOOKS
+## Notebooks
 
 **1. stanford_cars_benchmark.ipynb**
 
