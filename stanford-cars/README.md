@@ -7,9 +7,10 @@ This was all run on a Paperspace P4000 machine
 ## Potential Avenues of Investigation:
 
 - Agressive LR for training all layers
+- Adding Weight-Decay and tuning Dropout
 - Train only on cropped images
 - Try alternate resnet sizes (benchmark used resnet152
-- Use non-standard fastai image augmentations
+- Use non-standard fastai image augmentations, including augmentations for this dataset can be found here: http://ee.sharif.edu/~shayan_f/fgcc/index.html 
 
 Implementation of:
 
