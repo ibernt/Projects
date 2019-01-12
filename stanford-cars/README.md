@@ -19,12 +19,12 @@ Implementation of:
 
 ## Notebooks
 
-**1. stanford_cars_basic.ipynb**
+**1_stanford_cars_basic.ipynb**
 
  - Benchmark model using basic fastai image classification workflow including the 1-cycle policy
  - 84.95% Accuracy
  
- **1. stanford_cars_basic.ipynb**
+ **2_stanford_cars_lr_tuning.ipynb**
 
  - Tuning of the learning rate and differential learning rates, again using fastai's implementation of the 1-cycle policy
  - 88.19% Accuracy, up 3.2%
