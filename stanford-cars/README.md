@@ -1,6 +1,6 @@
 # Standford Cars  - Image Classification
 
-Image classification of the stanford-cars dataset leveraging the fastai v1. The goal is to try hit 90%+ accuracy, starting with a basic fastai image classification workflow and interating from there. My 90%+ goal is based on @sgugger's code implementing Adam for the Stanford Cars dataset, here: https://github.com/sgugger/Adam-experiments
+Image classification of the stanford-cars dataset leveraging the fastai v1. The goal is to **try hit 90%+ accuracy**, starting with a basic fastai image classification workflow and interating from there. My 90%+ goal is based on @sgugger's code implementing Adam for the Stanford Cars dataset, here: https://github.com/sgugger/Adam-experiments
 
 This was all run on a Paperspace P4000 machine
 
@@ -19,10 +19,17 @@ Implementation of:
 
 ## Notebooks
 
-**1. stanford_cars_benchmark.ipynb**
+**1. stanford_cars_basic.ipynb**
 
- - Benchmark model using basic fastai image classification workflow
+ - Benchmark model using basic fastai image classification workflow including the 1-cycle policy
  - 84.95% Accuracy
+ 
+ **1. stanford_cars_basic.ipynb**
+
+ - Tuning of the learning rate and differential learning rates, again using fastai's implementation of the 1-cycle policy
+ - 88.19% Accuracy, up 3.2%
+ 
+ 
     
 ## Credits
 
