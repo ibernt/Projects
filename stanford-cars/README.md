@@ -8,8 +8,12 @@ This was all run on a Paperspace P4000 machine
 
 - Agressive LR for training all layers
 - Adding Weight-Decay and tuning Dropout
+- AdamW with 1-cycle: https://twitter.com/radekosmulski/status/1014964816337952770?s=12
+- AdamW and other DL tricks: https://twitter.com/drsxr/status/1073208269907353602?s=12
 - Train only on cropped images
 - Try alternate resnet sizes (benchmark used resnet152
+- Use own stats (mean+std dev) from training set to normalize the images
+- train with bn_freeze=true for unfrozen layers
 - Use non-standard fastai image augmentations, including augmentations for this dataset can be found here: http://ee.sharif.edu/~shayan_f/fgcc/index.html 
 
 Implementation of:
