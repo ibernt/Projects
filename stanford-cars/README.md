@@ -8,6 +8,7 @@ This was all run on a Paperspace P4000 machine
 
 #### Data Augmentation
 - Train only on cropped images
+- Use Mixup (https://docs.fast.ai/callbacks.mixup.html , https://arxiv.org/abs/1710.09412)
 - Use own stats (mean+std dev) from training set to normalize the images
 - Use non-standard fastai image augmentations, including augmentations for this dataset can be found here: http://ee.sharif.edu/~shayan_f/fgcc/index.html 
 
