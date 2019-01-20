@@ -22,6 +22,7 @@ AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Networ
 - AdamW with 1-cycle: https://twitter.com/radekosmulski/status/1014964816337952770?s=12
 - AdamW and other DL tricks: https://twitter.com/drsxr/status/1073208269907353602?s=12
 - train with bn_freeze=true for unfrozen layers
+- Shake-Shake Regularisation (mentioned in Fornax slides above)
 
 #### Architecture
 - Try alternate resnet sizes (benchmark used resnet152
