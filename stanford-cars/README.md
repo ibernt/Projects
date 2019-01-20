@@ -5,6 +5,7 @@ Image classification of the stanford-cars dataset leveraging the fastai v1. The 
 This was all run on a Paperspace P4000 machine
 
 ## Potential Avenues of Investigation:
+Great roundup in advances in 2018, some of which can be applied: https://github.com/kmkolasinski/deep-learning-notes/blob/master/seminars/2018-12-Improving-DL-with-tricks/Improving_deep_learning_models_with_bag_of_tricks.pdf
 
 #### Data Augmentation
 - Train only on cropped images
