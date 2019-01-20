@@ -23,6 +23,7 @@ AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Networ
 - AdamW and other DL tricks: https://twitter.com/drsxr/status/1073208269907353602?s=12
 - train with bn_freeze=true for unfrozen layers
 - Shake-Shake Regularisation (mentioned in Fornax slides above)
+- Knowledge Distillation (https://forums.fast.ai/t/part-1-complete-collection-of-video-timelines/5504)
 
 #### Architecture
 - Try alternate resnet sizes (benchmark used resnet152
