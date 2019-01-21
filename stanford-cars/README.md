@@ -16,6 +16,8 @@ AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Networ
     - Paper repo: https://github.com/facebookresearch/mixup-cifar10
     - Fastai docs: https://docs.fast.ai/callbacks.mixup.html , https://forums.fast.ai/t/mixup-data-augmentation/22764/21)
 - Mixup + Dropout
+- Label Smoothing (https://arxiv.org/abs/1512.00567)
+    - Mixup + Label smoothing (used in Mixup paper)
 - Use own stats (mean+std dev) from training set to normalize the images
 - Use non-standard fastai image augmentations, including augmentations for this dataset can be found here: http://ee.sharif.edu/~shayan_f/fgcc/index.html 
 
