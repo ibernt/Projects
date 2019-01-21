@@ -16,6 +16,7 @@ AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Networ
     - Paper repo: https://github.com/facebookresearch/mixup-cifar10
     - Fastai docs: https://docs.fast.ai/callbacks.mixup.html , https://forums.fast.ai/t/mixup-data-augmentation/22764/21)
 - Mixup + Dropout (produced good results in Mixup paper)
+- AdaMixup (https://arxiv.org/abs/1809.02499v3)
 - Label Smoothing (https://arxiv.org/abs/1512.00567)
     - Mixup + Label smoothing (tested in Mixup paper) - maybe not, didn't produce great results
 - Random Erasing (Zhong et al., 2017)
