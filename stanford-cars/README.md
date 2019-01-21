@@ -11,7 +11,10 @@ AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Networ
 
 #### Data Augmentation
 - Train only on cropped images
-- Use Mixup (https://docs.fast.ai/callbacks.mixup.html , https://forums.fast.ai/t/mixup-data-augmentation/22764/21, https://arxiv.org/abs/1710.09412)
+- Use Mixup 
+    - Paper: https://arxiv.org/abs/1710.09412
+    - Paper repo: https://github.com/facebookresearch/mixup-cifar10
+    - Fastai docs: https://docs.fast.ai/callbacks.mixup.html , https://forums.fast.ai/t/mixup-data-augmentation/22764/21, )
 - Use own stats (mean+std dev) from training set to normalize the images
 - Use non-standard fastai image augmentations, including augmentations for this dataset can be found here: http://ee.sharif.edu/~shayan_f/fgcc/index.html 
 
