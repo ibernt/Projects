@@ -44,6 +44,16 @@ Implementation of:
  - Tuning of the learning rate and differential learning rates, again using fastai's implementation of the 1-cycle policy
  - 88.19% Accuracy, up 3.2%
  
+ **3_stanford_cars_cropped.ipynb**
+
+ - Training the model using the cropped images, based on the bounding boxes provided
+ - XX.XX% Accuracy, down 
+ 
+ **4_stanford_cars_mixup.ipynb**
+
+ - Tuning the model using the mixup protocol, blending input images to provide stronger regularisation
+ - XX.XX% Accuracy, up X.X%
+ 
  
     
 ## Credits
