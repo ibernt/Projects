@@ -33,6 +33,7 @@ AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Networ
 - train with bn_freeze=true for unfrozen layers
 - Shake-Shake Regularisation (mentioned in Fornax slides above)
 - Knowledge Distillation (paper: https://arxiv.org/abs/1503.02531, https://forums.fast.ai/t/part-1-complete-collection-of-video-timelines/5504)
+- Kaggle winner, Mixup + Knowledge Distillation (http://arxiv.org/abs/1809.04403v2)
 
 #### Architecture
 - Try alternate resnet sizes (benchmark used resnet152
