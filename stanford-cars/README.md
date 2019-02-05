@@ -9,22 +9,22 @@ This was all run on a Paperspace P4000 machine
 **1_stanford_cars_basic.ipynb**
 
  - Benchmark model using basic fastai image classification workflow including the 1-cycle policy
- - 84.95% Accuracy
+ - **84.95%** Accuracy
  
  **2_stanford_cars_lr_tuning.ipynb**
 
  - Tuning of the learning rate and differential learning rates, again using fastai's implementation of the 1-cycle policy
- - 88.19% Accuracy, up 3.2%
+ - **88.19%** Accuracy, up 3.2%
  
  **3_stanford_cars_cropped.ipynb**
 
  - Training the model using the cropped images, based on the bounding boxes provided
- - 78.54% Accuracy, down 9.5% from Notebook 2 
+ - **78.54%** Accuracy, down 9.5% from Notebook 2 
  
  **4_stanford_cars_mixup.ipynb**
 
  - Tuning the model using the [Mixup](https://arxiv.org/abs/1710.09412)) protocol, blending input images to provide stronger regularisation
- - XX.XX% Accuracy, up X.X%
+ - **XX.XX%** Accuracy, up X.X%
 
 ## Potential Avenues of Investigation:
 FORNAX - Great roundup in advances in 2018, some of which can be applied: https://github.com/kmkolasinski/deep-learning-notes/blob/master/seminars/2018-12-Improving-DL-with-tricks/Improving_deep_learning_models_with_bag_of_tricks.pdf
