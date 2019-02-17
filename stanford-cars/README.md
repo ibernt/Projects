@@ -49,6 +49,7 @@ AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Networ
 #### Training Regimes
 - Agressive LR for training all layers
 - Adding Weight-Decay and tuning Dropout
+- Batch Norm
 - @sgugger's adam experiments: https://github.com/sgugger/Adam-experiments
 - AdamW with 1-cycle: https://twitter.com/radekosmulski/status/1014964816337952770?s=12
 - AdamW and other DL tricks: https://twitter.com/drsxr/status/1073208269907353602?s=12
