@@ -32,6 +32,7 @@ FORNAX - Great roundup in advances in 2018, some of which can be applied: https:
 AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Network: https://arxiv.org/pdf/1812.01187.pdf
 
 #### Data Augmentation
+- Great visualisaton here  for the [transforms available in fastai](https://www.kaggle.com/init27/introduction-to-image-augmentation-using-fastai)
 - Train only on cropped images
 - Use Mixup 
     - Paper: https://arxiv.org/abs/1710.09412
