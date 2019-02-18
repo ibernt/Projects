@@ -31,6 +31,8 @@ FORNAX - Great roundup in advances in 2018, some of which can be applied: https:
 
 AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Network: https://arxiv.org/pdf/1812.01187.pdf
 
+S0TA - *95%* - WS-DAN - [See Better Before Looking Closer: Weakly Supervised Data Augmentation Network for Fine-Grained Visual Classification - Hu 2019](https://arxiv.org/abs/1901.09891). Code might not be released until October 2019 if it is accepted for ICCV-2019.
+
 #### Data Augmentation
 - Great visualisaton here  for the [transforms available in fastai](https://www.kaggle.com/init27/introduction-to-image-augmentation-using-fastai)
 - Train only on cropped images
