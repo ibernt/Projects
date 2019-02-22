@@ -24,7 +24,7 @@ This was all run on a Paperspace P4000 machine
  **4_stanford_cars_mixup.ipynb**
 
  - Tuning the model using the [Mixup](https://arxiv.org/abs/1710.09412)) protocol, blending input images to provide stronger regularisation
- - **XX.XX%** Accuracy, up X.X%
+ - **89.4%** Accuracy, up 1% since NB2
 
 ## Potential Avenues of Investigation
 FORNAX - Great roundup in advances in 2018, some of which can be applied: https://github.com/kmkolasinski/deep-learning-notes/blob/master/seminars/2018-12-Improving-DL-with-tricks/Improving_deep_learning_models_with_bag_of_tricks.pdf
