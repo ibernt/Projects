@@ -26,12 +26,16 @@ This was all run on a Paperspace P4000 machine
  - Tuning the model using the [Mixup](https://arxiv.org/abs/1710.09412)) protocol, blending input images to provide stronger regularisation
  - **89.4%** Accuracy, up 1% since NB2
 
+## S0TA 
+- **95%** - WS-DAN - [See Better Before Looking Closer: Weakly Supervised Data Augmentation Network for Fine-Grained Visual Classification - Hu 2019](https://arxiv.org/abs/1901.09891). Code might not be released until October 2019 if it is accepted for ICCV-2019.
+- Previous SOTA - **93.61%** (Apr-18)  https://www.researchgate.net/publication/316027349_Deep_CNNs_With_Spatially_Weighted_Pooling_for_Fine-Grained_Car_Recognition
+
 ## Potential Avenues of Investigation
 FORNAX - Great roundup in advances in 2018, some of which can be applied: https://github.com/kmkolasinski/deep-learning-notes/blob/master/seminars/2018-12-Improving-DL-with-tricks/Improving_deep_learning_models_with_bag_of_tricks.pdf
 
 AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Network: https://arxiv.org/pdf/1812.01187.pdf
 
-S0TA - *95%* - WS-DAN - [See Better Before Looking Closer: Weakly Supervised Data Augmentation Network for Fine-Grained Visual Classification - Hu 2019](https://arxiv.org/abs/1901.09891). Code might not be released until October 2019 if it is accepted for ICCV-2019.
+
 
 #### Data Augmentation
 - Great visualisaton here  for the [transforms available in fastai](https://www.kaggle.com/init27/introduction-to-image-augmentation-using-fastai)
@@ -62,11 +66,8 @@ S0TA - *95%* - WS-DAN - [See Better Before Looking Closer: Weakly Supervised Dat
 - Kaggle winner, Mixup + Knowledge Distillation (http://arxiv.org/abs/1809.04403v2)
 
 #### Architecture
-- Try alternate resnet sizes (benchmark used resnet152
-
-Implementation of:
-- Stanford Cars SOTA 93.61% (Apr-18)  https://www.researchgate.net/publication/316027349_Deep_CNNs_With_Spatially_Weighted_Pooling_for_Fine-Grained_Car_Recognition
-     
+- Try alternate resnet sizes (benchmark used resnet152)
+  
 ## Credits
 
 - code to extract the labels and annotations from the .mat files: Devon Yates' code on Kaggle, thanks Devon! https://www.kaggle.com/criticalmassacre/inaccurate-labels-in-stanford-cars-data-set
