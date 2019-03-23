@@ -35,6 +35,8 @@ FORNAX - Great roundup in advances in 2018, some of which can be applied: https:
 
 AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Network: https://arxiv.org/pdf/1812.01187.pdf
 
+Multi-Attention CNN: https://github.com/Jianlong-Fu/Multi-Attention-CNN
+
 - Visualise with images in t-sne: https://github.com/kheyer/ML-DL-Projects
 
 #### Data Augmentation
