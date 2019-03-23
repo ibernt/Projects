@@ -35,7 +35,7 @@ FORNAX - Great roundup in advances in 2018, some of which can be applied: https:
 
 AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Network: https://arxiv.org/pdf/1812.01187.pdf
 
-
+- Visualise with images in t-sne: https://github.com/kheyer/ML-DL-Projects
 
 #### Data Augmentation
 - Great visualisaton here  for the [transforms available in fastai](https://www.kaggle.com/init27/introduction-to-image-augmentation-using-fastai)
