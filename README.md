@@ -7,7 +7,7 @@ Repo with all Project types
 - Current best is **88.19%** accuracy 
 
 ### Feature Testing
-- RGB Transforms: Tested whether different types of RGB transforms could improve validatoin accuracy for image classification. Randomly zeroing out 1 channel had the best improvement.
+- RGB Transforms: Tested whether different types of RGB transforms could improve validatoin accuracy for image classification. Randomly zeroing out 1 channel had the best improvement. Prompted after discussion on the fastai formum here: https://forums.fast.ai/t/rgb-transformations-for-data-augmentation/36876/8
 
 ### Resources
 Hows to customise the Fastai DataBlock: https://medium.com/@wgilliam/finding-data-block-nirvana-a-journey-through-the-fastai-data-block-api-c38210537fe4
