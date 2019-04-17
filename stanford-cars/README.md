@@ -58,6 +58,7 @@ Multi-Attention CNN: https://github.com/Jianlong-Fu/Multi-Attention-CNN
 - AdaMixup (https://arxiv.org/abs/1809.02499v3)
 - Cutout - Improved Regularization of Convolutional Neural Networks with Cutout https://arxiv.org/pdf/1708.04552.pdf
     - https://docs.fast.ai/vision.transform.html#_cutout
+- RGB Transforms, which I tested [here](https://github.com/morganmcg1/Projects/blob/master/feature-testing/RGB%20Transformation%20Testing.ipynb)
 - Label Smoothing (https://arxiv.org/abs/1512.00567)
     - Mixup + Label smoothing (tested in Mixup paper) - maybe not, didn't produce great results
 - Random Erasing (Zhong et al., 2017)
