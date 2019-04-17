@@ -80,6 +80,8 @@ Multi-Attention CNN: https://github.com/Jianlong-Fu/Multi-Attention-CNN
 
 #### Architecture
 - Try alternate resnet sizes (benchmark used resnet152)
+- Try alternate archs, e.g. densenet, unet
+- [Try XResnet152](https://twitter.com/jeremyphoward/status/1115036889818341376?s=12)
   
 ## Credits
 
