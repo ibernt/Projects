@@ -63,6 +63,7 @@ Multi-Attention CNN: https://github.com/Jianlong-Fu/Multi-Attention-CNN
     - Mixup + Label smoothing (tested in Mixup paper) - maybe not, didn't produce great results
 - Random Erasing (Zhong et al., 2017)
     - Paper https://arxiv.org/abs/1708.04896 
+- Try increase zoom and higher resolution images
 - Use own stats (mean+std dev) from training set to normalize the images
 - Use non-standard fastai image augmentations, including augmentations for this dataset can be found here: http://ee.sharif.edu/~shayan_f/fgcc/index.html 
 
