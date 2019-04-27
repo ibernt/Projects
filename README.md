@@ -1,6 +1,8 @@
 # Projects
-Repo with all Project types
+Repo with my current projects
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/morganmcg1/Projects/master)
+  <- Launch Binder or share the [Binder link](https://mybinder.org/v2/gh/morganmcg1/Projects/master)
 
 ### Stanford Cars
 - The goal of this series of notebooks is to achieve 90%+ accuracy using fastai
