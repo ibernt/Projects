@@ -1,6 +1,7 @@
 # Standford Cars  - Image Classification
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/morganmcg1/Projects/tree/master/stanford-cars/master)
+Binder link: https://mybinder.org/v2/gh/morganmcg1/Projects/tree/master/stanford-cars/master
 
 Image classification of the stanford-cars dataset leveraging the fastai v1. The goal is to **try hit 90%+ accuracy**, starting with a basic fastai image classification workflow and interating from there. My 90%+ goal is based on @sgugger's code implementing Adam for the Stanford Cars dataset, here: https://github.com/sgugger/Adam-experiments
 
