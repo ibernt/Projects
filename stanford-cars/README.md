@@ -33,6 +33,9 @@ This was all run on a Paperspace P4000 machine.
  - Tuning the dropout parameters while also using the [Mixup](https://arxiv.org/abs/1710.09412)) protocol
  - **89.2%** Accuracy achieved with agressive dropout (ps = [0.35, 0.7]), accuracy more or less the same as NB4
  
+ **6_stanford_cars_cutout.ipynb**
+ - Used the Cuout data augmentation alongside default fastai data transforms, size of the squares were 25% of the image side (e.g. 25%  x 224)
+ - **88.3%** Accuracy achieved
 
 ## S0TA 
 - **95%** - WS-DAN - [See Better Before Looking Closer: Weakly Supervised Data Augmentation Network for Fine-Grained Visual Classification - Hu 2019](https://arxiv.org/abs/1901.09891). Code might not be released until October 2019 if it is accepted for ICCV-2019.
