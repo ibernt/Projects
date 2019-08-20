@@ -3,6 +3,8 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/morganmcg1/Projects/master)
   <- Launch Binder or share the [Binder link](https://mybinder.org/v2/gh/morganmcg1/Projects/master)
 
+**Best so far: 93.29% accuracy achieved (with TTA)**
+
 Image classification of the stanford-cars dataset leveraging the fastai v1. The goal is to **try hit 90%+ accuracy**, starting with a basic fastai image classification workflow and interating from there. My 90%+ goal is based on @sgugger's code implementing Adam for the Stanford Cars dataset, here: https://github.com/sgugger/Adam-experiments
 
 This was all run on a Paperspace P4000 machine.
@@ -39,6 +41,11 @@ This was all run on a Paperspace P4000 machine.
  **6_stanford_cars_cutout.ipynb**
  - Used the Cuout data augmentation alongside default fastai data transforms, size of the squares were 25% of the image side (e.g. 25%  x 224)
  - **88.3%** Accuracy achieved
+ 
+  **7_stanford_cars_mixup_resizeSquish.ipynb**
+ - Used the Squish resizing transform which resulted in a big bump in accuracy. More attention to finding the LR sweet spot (looking for a temporary increase in loss before dropping) also helped a lot here
+ - **93.29%** Accuracy achieved
+
 
 ## S0TA 
 - **95%** - WS-DAN - [See Better Before Looking Closer: Weakly Supervised Data Augmentation Network for Fine-Grained Visual Classification - Hu 2019](https://arxiv.org/abs/1901.09891). Code might not be released until October 2019 if it is accepted for ICCV-2019.
