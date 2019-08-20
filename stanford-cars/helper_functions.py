@@ -27,7 +27,7 @@ def draw_text(ax, xy, txt, sz=14):
 def compare_top_losses(k, path, interp, labels_df, num_imgs):
     tl_val,tl_idx = interp.top_losses(k)
     classes = interp.data.classes
-    probs = interp.probs
+    # probs = interp.probs
     columns = 2
     rows = 2
     
@@ -49,7 +49,9 @@ def compare_top_losses(k, path, interp, labels_df, num_imgs):
         pred_fn = labels_df.loc[labels_df['class_name'] == pred_cl]['filename'].values[0]
         
         print(f'PREDICTION:{pred_cl}, ACTUAL:{act_cl}')
-        print(f'Loss: {tl_val[i]:.2f}, Probability: {probs[i][cl]:.4f}')
+        print(f'Loss: {tl_val[i]:.2f}')
+              # Probability: {probs[i][cl]:.4f}'
+             
               
         # Add image to the left column
         img_path = 'train/' + pred_fn
