@@ -60,6 +60,12 @@ Multi-Attention CNN: https://github.com/Jianlong-Fu/Multi-Attention-CNN
 
 - Visualise with images in t-sne: https://github.com/kheyer/ML-DL-Projects
 
+Self-Attention in Resnet (EfficientNet?): https://twitter.com/citnaj/status/1161340019602182144?s=12
+
+- More resolution, From EfficientNet paper: modern ConvNets tend to use 299x299 (Szegedy et al., 2016) or 331x331 (Zoph et al., 2018) for better accuracy. Recently, GPipe (Huang et al., 2018) achieves state-of-the-art ImageNet accuracy with 480x480 resolution. Higher resolutions, such as 600x600, are also widely used in object detection ConvNets
+- EfficientNet: Use Relu6? https://forums.fast.ai/t/efficientnet/46978/75
+    - same thread: I tried EfficientNet b3 with mixup and could get 93.8% on the test set for the Stanford Cars Dataset. What made a great difference for me in making the EfficientNet work was to change the optimizer to RMSprop. With the default (Adam) I got worse results than Resnet50.
+
 #### Data Augmentation
 - Great visualisaton here  for the [transforms available in fastai](https://www.kaggle.com/init27/introduction-to-image-augmentation-using-fastai)
 - Train only on cropped images
