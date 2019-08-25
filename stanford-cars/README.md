@@ -52,6 +52,8 @@ This was all run on a Paperspace P4000 machine.
 - Previous SOTA - **93.61%** (Apr-18)  https://www.researchgate.net/publication/316027349_Deep_CNNs_With_Spatially_Weighted_Pooling_for_Fine-Grained_Car_Recognition
 
 ## Potential Avenues of Investigation
+- **Ranger** Optimiser - Maybe re-consider fit_one_cycle: https://forums.fast.ai/t/imagenette-woof-leaderboards-guidelines-for-proving-new-high-scores/52714/19
+
 FORNAX - Great roundup in advances in 2018, some of which can be applied: https://github.com/kmkolasinski/deep-learning-notes/blob/master/seminars/2018-12-Improving-DL-with-tricks/Improving_deep_learning_models_with_bag_of_tricks.pdf
 
 AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Network: https://arxiv.org/pdf/1812.01187.pdf
@@ -65,6 +67,8 @@ Self-Attention in Resnet (EfficientNet?): https://twitter.com/citnaj/status/1161
 - More resolution, From EfficientNet paper: modern ConvNets tend to use 299x299 (Szegedy et al., 2016) or 331x331 (Zoph et al., 2018) for better accuracy. Recently, GPipe (Huang et al., 2018) achieves state-of-the-art ImageNet accuracy with 480x480 resolution. Higher resolutions, such as 600x600, are also widely used in object detection ConvNets
 - EfficientNet: Use Relu6? https://forums.fast.ai/t/efficientnet/46978/75
     - same thread: I tried EfficientNet b3 with mixup and could get 93.8% on the test set for the Stanford Cars Dataset. What made a great difference for me in making the EfficientNet work was to change the optimizer to RMSprop. With the default (Adam) I got worse results than Resnet50.
+  
+ 
 
 #### Data Augmentation
 - Great visualisaton here  for the [transforms available in fastai](https://www.kaggle.com/init27/introduction-to-image-augmentation-using-fastai)
