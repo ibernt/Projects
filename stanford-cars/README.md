@@ -54,6 +54,8 @@ This was all run on a Paperspace P4000 machine.
 ## Potential Avenues of Investigation
 - **Ranger** Optimiser - Maybe re-consider fit_one_cycle: https://forums.fast.ai/t/imagenette-woof-leaderboards-guidelines-for-proving-new-high-scores/52714/19
 
+- XResNet with Self-Attention: https://github.com/jamestjw/xresnet-self-attn
+
 FORNAX - Great roundup in advances in 2018, some of which can be applied: https://github.com/kmkolasinski/deep-learning-notes/blob/master/seminars/2018-12-Improving-DL-with-tricks/Improving_deep_learning_models_with_bag_of_tricks.pdf
 
 AMAZON - Bag of Tricks for Image Classification with Convolutional Neural Network: https://arxiv.org/pdf/1812.01187.pdf
