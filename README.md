@@ -5,7 +5,7 @@ Repo with my current projects
   <- Launch Binder or share the [Binder link](https://mybinder.org/v2/gh/morganmcg1/Projects/master)
 
 ### [RangerQH_v2](https://github.com/morganmcg1/Projects/blob/master/RangerQH%20to%20fastai2%20-%20working.ipynb)
-- My rough attempt at porting @lessw2020's RangerQH optimizer to fastaiv2
+- My rough attempt at porting @lessw2020's RangerQH optimizer to fastaiv2 with super simple MNIST net for testing
 - @lessw2020 fastaiv1 implementation here: https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer/blob/master/rangerqh.py
 
 ### [Stanford Cars](https://github.com/morganmcg1/Projects/tree/master/stanford-cars)
