@@ -4,6 +4,9 @@ Repo with my current projects
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/morganmcg1/Projects/master)
   <- Launch Binder or share the [Binder link](https://mybinder.org/v2/gh/morganmcg1/Projects/master)
 
+### [RangerQH_v2]
+- My rough attempt at porting @lessw2020's RangerQH optimizer to fastaiv2
+
 ### [Stanford Cars](https://github.com/morganmcg1/Projects/tree/master/stanford-cars)
 - Fine-grained image classification of different car models (Stanford-Cars dataset)
 - The goal of this series of notebooks is to achieve **90%+** accuracy using fastai
